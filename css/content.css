@@ -1,0 +1,118 @@
+* {
+font-family: helvetica;
+font-size: 14px;
+}
+
+/* kontener*/
+/*  
+{
+width: 790px;
+margin: 5% auto !important;
+margin: 5% 8%;
+background-image: url('hfm_bg.jpg');
+background-repeat: repeat-y;
+}*/
+
+
+
+/* tresc */
+/*#content {
+width: 600px;
+float: right;
+text-align: left;
+line-height: 1.5em;
+font-family: helvetica, arial, verdana;
+background-color: #000055;
+}*/
+h1{
+	 font:  18px helvetica;
+     font-weight: bolder;
+     font-style: normal;
+	 color:  #000099;
+}
+
+h2
+  {
+  font: 16px helvetica;
+  color: #000000; 
+ /* border-bottom: solid 2px #cccccc;*/
+  display: block;
+  }
+
+h3
+  {
+  font: bold 14px helvetica;
+  color: #000000; 
+  
+  display: block;
+  }
+
+h4
+  {
+  font: 10px helvetica;
+  color: #2F4F4F;
+  
+  display: block;
+  }
+
+a 
+  {
+  color: #2F4F4F;
+  text-decoration:  none;
+  }
+a:hover
+{
+	color:  #000099;
+	text-decoration: none
+	
+}  
+
+
+ul {
+list-style-type: disc;
+display: block;
+padding-left: 10 px;
+}
+
+img{
+	width: 300px;
+}
+img.gr{
+	width: 600px;
+}
+li{
+	margin-top: 1em;
+margin-bottom: 1em;
+}
+
+dt {
+	margin-top: 1em;
+	font: normal helvetica;
+	
+}
+dd {
+	font: normal helvetica ;
+}
+dd.dummylink {
+	color: #2F4F4F;
+	}
+/* stopka */
+address {
+text-align: center;
+clear: both;
+font-style: normal;
+font-size: 1em;
+color: #ccc;
+margin-top: 1em;
+line-height: 2em;
+border-top: 1px solid #ccc;
+}
+
+table { width: 100%; }
+textarea { height: 150px; width: 100%; }
+pre { font-family: monospace; font-size: 1.2em; color: #aaa;}
+.istep { color: #ccc; }
+.astep { color: #000; }
+.cstep { font-weight: bold; }
+.error { color: #f00; clear; font-weight: bold; }
+small { font-weight: normal; font-size: 0.8em; display: block; }
